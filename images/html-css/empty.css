@@ -1,0 +1,374 @@
+/* ****************************
+
+		 Empty Theme
+
+**************************** */
+
+
+
+/* Generic Utility */
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+
+
+/* ****************************
+		Navigation tab
+**************************** */
+
+.tabs {
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	position: relative;
+}
+
+.tabs li{
+	float:left;
+	position:relative;
+	display:block;
+	background-color: #ccc;
+	height:45px;
+	border-right:1px #ccc solid;
+	line-height:45px;
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+	color:#333;
+}
+.tab-para{
+	width: 100%;
+	font-size: 15px;
+	margin: 0 0;
+	padding: 0 0;
+}
+
+/* left */
+.tabs.left{width:auto;}
+.tabs.left li {padding:0 30px;}
+.tabs.left li:last-child {margin-right: 0; border-right:0;}
+
+
+/* center */
+.tabs.center.col2 {width:174px;}
+.tabs.center.col3 {width:260px;}
+.tabs.center.col4 {width:346px;}
+.tabs.center.col5 {width:432px;}
+.tabs.center.col6 {width:516px;}
+.tabs.center.col7 {width:602px;}
+.tabs.center.col8 {width:688px;}
+	
+.tabs.center.col2 li,
+.tabs.center.col3 li,
+.tabs.center.col4 li,
+.tabs.center.col5 li,
+.tabs.center.col6 li,
+.tabs.center.col7 li,
+.tabs.center.col8 li { width: 86px;}
+
+
+/* right */
+.tabs.right li {float: right; width:86px;}
+
+
+/* fullwidth */
+.tabs.col2 li {width:49.9%;}
+.tabs.col3 li {width:33.2222%;}
+.tabs.col4 li {width:24.9%;}
+.tabs.col5 li {width:19.9%;}
+.tabs.col6 li {width:16.5555%;}
+.tabs.col7 li {width:14.1857%;}
+.tabs.col8 li {width:12.44%;}
+
+
+.tabs li:hover {
+	text-decoration:none;
+	cursor:pointer;
+	color: #fff;
+	background: #f3600a;
+}
+
+.tabs li.active{
+	background: #f3600a;
+	color: #fff;
+	border-bottom: none;
+	z-index:50;
+}
+
+
+
+/* Tab Content */
+
+.content {
+	clear:both;
+	position:relative;
+	/*background: #f0f0f0;*/
+	width: 98%;
+	padding: 0 1%;
+}
+
+.tab_content{
+	padding: 30px 0;
+}
+
+.content h2{
+	margin-bottom:15px;
+	font-weight:bold;
+	font-size:1.8em;
+
+}
+
+.content h4{
+	font-weight:bold;
+	font-size:1.2em;
+	margin-bottom: 15px;
+}
+
+ul li {
+	line-height: 24px;
+}
+.tab_block {
+	float:left;
+	width: 100%;
+}
+.tab_block1{
+	text-align: center;
+}
+.tab_block1 img{
+	float: left;
+    margin: -40px 0 0 39px;
+}
+/* Responsive Row (extracted from bootstrap with litte changes) */
+
+.row-fluid {width: 100%; margin-bottom: 20px;}
+.row-fluid:before, .row-fluid:after { display: table; line-height: 0; content: "";}
+.row-fluid:after {clear: both;}
+.row-fluid [class*="span"] {display: block; float: left; width: 100%; min-height: 30px; margin-left: 2.127659574468085%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.row-fluid [class*="span"]:first-child {margin-left: 0;}
+.row-fluid .span12 {width: 100%;}
+.row-fluid .span11 {width: 91.42%;}
+.row-fluid .span10 {width: 82.93%;}
+.row-fluid .span9 {width: 74.40%;}
+.row-fluid .span8 {width: 65.90%;}
+.row-fluid .span7 {width: 57.39%;}
+.row-fluid .span6 {width: 48.87%;}
+.row-fluid .span5 {width: 40.36%;}
+.row-fluid .span4 {width: 31.85%;}
+.row-fluid .span3 {width: 23.30%;}
+.row-fluid .span2 {width: 14.83%;}
+.row-fluid .span1 {width: 6.31%;}
+
+/* Setected */
+
+::selection { 
+    background: #171717;
+    color: #fff; 
+    text-shadow: none;
+    } 
+::-moz-selection { 
+    background: #171717;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+
+/* Gallery */
+
+/*.title {margin: 0 auto; margin-bottom: 40px; width: 400px;}*/
+
+.row-fluid img {width: 100%;}
+
+
+/* Section */
+
+.section{
+	border-top:solid 1px #000;
+	padding:35px 0;
+	margin-top: 40px;
+	clear: both;
+}
+
+.section h3{
+	margin-bottom:15px;
+	font-weight:bold;
+	font-size:1.3em
+}
+
+
+.video-container {
+	position: relative;
+	padding-bottom: 400px;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	left: 0;
+	margin-left: 0;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -344px;
+}
+
+.gallery .row-fluid .span2 {
+	margin-bottom: 1%;
+	margin-left: 1.5%;
+}
+
+.v_tabs {display: none;}
+
+
+/* ****************************
+		  Media query
+**************************** */
+
+fieldset,img
+{
+	border: 0;
+	-webkit-transform-origin: right top;
+	-ms-transform-origin: right top;
+	-o-transform-origin: right top;
+	transform-origin: right top;
+}
+@media screen and (max-width: 1440px) {
+	.tab_block{
+		width: 100%;
+		margin:0;
+		
+	}
+	
+}
+@media screen and (max-width: 1024px) {
+	.tab_block{
+		float:left;
+		width: 100%;
+		margin:1%;
+	}
+	.tab_block1 img {
+		float: none;
+		margin: -40px 0 0 39px;
+}
+}
+@media screen and (max-width: 768px) {
+
+	.tabs {display: none;}
+
+	.content {padding: 0; margin: 0; width: 100%;}
+
+	.v_tabs {
+		height:45px;
+		line-height:45px;
+		background: #cccccc;
+		text-align:center;
+		font-weight:bold;
+		font-size:13px;
+		margin-top: 1px;
+		display: block;
+		cursor: pointer;
+		text-transform: uppercase;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		float:left;
+		width:100%;
+	}
+
+	.v_tabs:first-child {
+		margin-top: 0;
+	}
+
+
+	.v_tabs.last {
+		border: none;
+	}
+
+	.v_tabs:hover {text-decoration:none; background:#0c3e7e;color: #fff;}
+
+	.v_active {
+		color: #fff;
+		background-color:#0c3e7e;
+		z-index:50;
+	}
+
+	.tab_content{
+		padding: 20px 0;
+		float:left;
+	}
+	.tab_block{
+		float:left;
+		width: 100%;
+		margin:0;
+	}
+	.tab_block1 img{
+		float:none;
+		margin:1% 0;
+		max-width: 100%;
+	}
+
+}
+@media screen and (max-width: 768px){
+.text {
+    margin: 2% 0;
+	text-align: center;
+}
+}
+@media screen and (max-width: 380px){
+.text {
+    margin: 2% 4%;
+	text-align: center;
+}
+}
+
+/* IE10 split screen fix */
+
+@media screen and (max-width: 320px) {
+@-ms-viewport { width: 320px; }
+.tab_block {
+	width: 100%;
+	margin:0%;
+	}
+	.tab_content {
+    padding: 0 0;
+    float: left;
+}
+.tab_block1 img {
+	float: none;
+	width: 100%;
+	margin: 1% 0;
+}
+.text {
+ 	margin: 2% 0;
+	width: 100%;
+}
+}
+ 
+@media screen and (min-width: 768px) and (max-width: 959px) {
+@-ms-viewport { width: 768px; }
+	
+}
+
+@media screen and (max-width: 375px) {
+
+.tab_block {
+	float:left;
+	width: 98%;
+	margin:1%;
+	}
+	.tab_content {
+    padding: 0 0;
+    float: left;
+}
+	.tab_block1 img {
+    float: none;
+    width: 100%;
+    margin: 1% 0;
+}
+	
+}

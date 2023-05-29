@@ -1,0 +1,227 @@
+ <!--tab content-->
+    <ul class="tabs left">
+		<li data-tab="main" class="active">Toyota Innova crysta</li>
+		<li data-tab="support" class="">Toyota Innova</li>
+        <li data-tab="support2" class="">Toyota Etios</li>
+        <li data-tab="support3" class="">Swift Dezire</li>
+        <li data-tab="support4" class="">Toyota Corola Altis</li>
+        <li data-tab="support5" class="">Toyota Fortuner</li>
+	</ul>
+    <div class="content">
+		<!-- 1 -->
+		<h3 class="v_tabs v_active" data-tab="main">Toyota Innova crysta</h3>
+		<div id="main" class="tab_content" style="display: block;">
+        <h2>Toyota Innova crysta</h2>
+        <div class="tab_block">
+       <div class="mybox">
+					<div class="blue">
+						<div class="blue-box1">Base Fare</div>
+						<div class="blue-box2">Minium Billing</div>
+						<div class="blue-box3">Driver Allowance</div>
+						<div class="blue-box4">Local visit</div>
+					</div>
+					<div class="gray">
+						<div class="gray-box1">RS 13/km</div>
+						<div class="gray-box2">250km/day</div>
+						<div class="gray-box3">RS 200/day</div>
+						<div class="gray-box4">RS 250/hr</div>
+					</div>
+				</div>
+<br><br>
+All tolls charges, interstate taxes, entry charges & parking charges are payable on actual basis
+<br><br>
+<input name="" type="button" class="btn" value="Reserve">
+<a class="btn" data-popup-open="popup-1" href="#">Reserve</a>
+
+<div class="popup" data-popup="popup-1">
+    <div class="popup-inner">
+        <h2>Reserve Your Car</h2>
+        <ul>
+        	
+            <li><input name="" type="text" onfocus="this.value=''" onblur="if (this.value == '') { this.value ='Enter Name' }" value="Enter Name" class="textfield" style="width:95%"></li><br>
+            <li><input name="" type="text" onfocus="this.value=''" onblur="if (this.value == '') { this.value ='Enter Email' }" value="Enter Email" class="textfield" style="width:95%"></li><br>
+            <li><input name="" type="text" onfocus="this.value=''" onblur="if (this.value == '') { this.value ='Enter Phone' }" value="Enter Phone" class="textfield" style="width:95%"></li><br>
+            <li><textarea name="" cols="" rows="" class="textarea" style="width:95%">Enter Message</textarea></li><br>
+            <li><input name="" type="button" class="btn" value="Submit Now" style="width:98%"></li>
+        </ul>
+        <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+    </div>-->
+</div>
+</div>
+</div>
+<div class="tab_block"><img src="images/innova crysta.jpg"></div>
+		</div>
+		<!-- 1 -->
+        
+		<!-- 2 -->
+		<h3 class="v_tabs last" data-tab="support">Toyota Innova</h3>
+		<div id="support" class="tab_content" style="display: none;">
+			<h2>Toyota Innova</h2>
+        <div class="tab_block">
+   <div class="mybox">
+					<div class="blue">
+						<div class="blue-box1">Base Fare</div>
+						<div class="blue-box2">Minium Billing</div>
+						<div class="blue-box3">Driver Allowance</div>
+						<div class="blue-box4">Local visit</div>
+					</div>
+					<div class="gray">
+						<div class="gray-box1">RS 13/km</div>
+						<div class="gray-box2">250km/day</div>
+						<div class="gray-box3">RS 200/day</div>
+						<div class="gray-box4">RS 250/hr</div>
+					</div>
+				</div>
+			</div>
+<br><br>
+All tolls charges, interstate taxes, entry charges & parking charges are payable on actual basis
+<br><br>
+<input name="" type="button" class="btn" value="Reserve">
+</div>
+</div>
+<div class="tab_block1"><img src="../images/toyota-innova1.png"></div>
+		</div>
+        <!-- 2 -->
+        <!-- 3 -->
+		<h3 class="v_tabs last" data-tab="support2">Toyota Etios</h3>
+		<div id="support2" class="tab_content" style="display: none;">
+			<h2>Toyota Etios</h2>
+        <div class="tab_block">
+        <div class="mybox">
+					<div class="blue">
+						<div class="blue-box1">Base Fare</div>
+						<div class="blue-box2">Minium Billing</div>
+						<div class="blue-box3">Driver Allowance</div>
+						<div class="blue-box4">Local visit</div>
+					</div>
+					<div class="gray">
+						<div class="gray-box1">RS 13/km</div>
+						<div class="gray-box2">250km/day</div>
+						<div class="gray-box3">RS 200/day</div>
+						<div class="gray-box4">RS 250/hr</div>
+					</div>
+				</div>
+<br><br>
+All tolls charges, interstate taxes, entry charges & parking charges are payable on actual basis
+<br><br>
+<input name="" type="button" class="btn" value="Reserve">-->
+</div>
+</div>
+<div class="tab_block"><img src="../images/Etios.png"></div>-->
+		</div>
+		<!-- 3 -->
+        
+		<!-- 4 -->
+		<h3 class="v_tabs last" data-tab="support3">Swift Dezire</h3>
+		<div id="support3" class="tab_content" style="display: none;">
+			<h2>Swift Dezire</h2>
+        <div class="tab_block">
+       <div class="mybox">
+					<div class="blue">
+						<div class="blue-box1">Base Fare</div>
+						<div class="blue-box2">Minium Billing</div>
+						<div class="blue-box3">Driver Allowance</div>
+						<div class="blue-box4">Local visit</div>
+					</div>
+					<div class="gray">
+						<div class="gray-box1">RS 13/km</div>
+						<div class="gray-box2">250km/day</div>
+						<div class="gray-box3">RS 200/day</div>
+						<div class="gray-box4">RS 250/hr</div>
+					</div>
+				</div>
+<br><br>
+All tolls charges, interstate taxes, entry charges & parking charges are payable on actual basis
+<br><br>
+<input name="" type="button" class="btn" value="Reserve">
+</div>
+</div>
+<div class="tab_block"><img src="../images/swift.png"></div>
+		</div>
+        <!-- 4 -->
+        <!-- 5 -->
+		<h3 class="v_tabs last" data-tab="support4">Toyota Corola Altis</h3>
+		<div id="support4" class="tab_content" style="display: none;">
+			<h2>Toyota Corola Altis</h2>
+        <div class="tab_block">
+	<div class="mybox">
+		<div class="blue">
+			<div class="blue-box1">Base Fare</div>
+			<div class="blue-box2">Minium Billing</div>
+			<div class="blue-box3">Driver Allowance</div>
+			<div class="blue-box4">Local visit</div>
+		</div>
+		<div class="gray">
+			<div class="gray-box1">RS 13/km</div>
+			<div class="gray-box2">250km/day</div>
+			<div class="gray-box3">RS 200/day</div>
+			<div class="gray-box4">RS 250/hr</div>
+		</div>
+		</div>
+<br><br>
+All tolls charges, interstate taxes, entry charges & parking charges are payable on actual basis
+<br><br>
+<input name="" type="button" class="btn" value="Reserve">
+</div>
+</div>
+<div class="tab_block"><img src="../images/Toyota-Corolla-Altis-.png"></div>
+		</div>
+        <!-- 5 -->
+        <!-- 6 -->
+		<h3 class="v_tabs last" data-tab="support5">Toyota Fortuner</h3>
+		<div id="support5" class="tab_content" style="display: none;">
+			<h2>Toyota Fortuner</h2>
+        <div class="tab_block">
+       <div class="mybox">
+					<div class="blue">
+						<div class="blue-box1">Base Fare</div>
+						<div class="blue-box2">Minium Billing</div>
+						<div class="blue-box3">Driver Allowance</div>
+						<div class="blue-box4">Local visit</div>
+					</div>
+					<div class="gray">
+						<div class="gray-box1">RS 13/km</div>
+						<div class="gray-box2">250km/day</div>
+						<div class="gray-box3">RS 200/day</div>
+						<div class="gray-box4">RS 250/hr</div>
+					</div>
+				</div>
+</div>
+<div class="tab_block"><img src="../images/toyota-fortuner.png"></div>
+		</div>
+       <!-- 5 -->
+        <!-- 6 -->
+
+	</div>	
+/*****************************************************************************
+******************************************************************************/
+
+
+	<div class="car-mileage">
+		<div class="container">
+			<div class="car-card">
+			<div class="toyota-innova">
+				<h6>Toyota innova crysta</h6>
+				<div class="mybox">
+					<div class="blue">
+						<div class="blue-box1">Base Fare</div>
+						<div class="blue-box2">Minium Billing</div>
+						<div class="blue-box3">Driver Allowance</div>
+						<div class="blue-box4">Local visit</div>
+					</div>
+					<div class="gray">
+						<div class="gray-box1">RS 13/km</div>
+						<div class="gray-box2">250km/day</div>
+						<div class="gray-box3">RS 200/day</div>
+						<div class="gray-box4">RS 250/hr</div>
+					</div>
+				</div>
+				<p class="box1-text">All tolls charges, interstate taxes, entry charge & parking charges are<br> payable on actul basis </p>
+				<button class="button">RESERVE</button>
+			</div>
+			
+				<div class="brown-car"><img src="../../../psd file/images/car2.png"></div>
+			</div>
+			<hr>
+		</div>
+	</div>

@@ -1,0 +1,2520 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.container{
+	width: 1002px;
+	margin: auto;
+	height: auto;
+}
+.header{
+	width: 100%;
+	margin: 0 0;
+	height: 130px;
+}
+.heading{
+	width:100%;
+	margin: 0 0;
+	height: auto;
+}
+.text-cont{
+	width:100%;
+	margin: 0 0;
+	
+	padding: 0 0;
+}
+.logo img{
+	float: left;
+	margin: 2% 0;
+}
+.contact{
+	color: #0c3e7e;
+}
+
+.number{
+	float: left;
+    margin: 0 20px 0 40%;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+ 
+.navigation li a{
+	display: block;
+	padding:8px;
+	color: #6d6d6d;
+	text-decoration: none;
+	font-size: 18px;
+}
+li a:hover{
+	color: #ffffff;
+	cursor: pointer;
+	background: #f3600a;
+}
+
+ul.navigation{
+	width: 51%;
+	list-style-type: none;
+	font-size: 10px;
+	font-weight: bold;
+	overflow: hidden;
+	margin: 5% 0 0 0;
+	padding: 0 0;
+	float: right;
+	color: #6d6d6d;
+	
+}
+
+ul.navigation li{
+	margin: 0 0;
+	display:inline-block;
+	padding: 8px 11px 0 8px;
+}
+
+.banner{
+	float: left;
+    width: 100%;
+   	background: url("../images/desert.png");
+	background-repeat: no-repeat;
+	
+}
+.text-box{
+	width: 400px;
+	height:auto;
+	margin: auto;
+	padding: 0 0;
+
+}
+.cont-box{
+	width: 1002px;
+	margin: auto;
+	
+}
+.code{
+	background-color: #ffffff;
+    width: 400px;
+    height: 400px;
+    margin: 0px 0 0 0;
+    padding: 15px 25px;
+    border: 1px solid #f6f6f6;
+    float: left;
+    box-shadow: 2px 2px 9px 1px rgb(2 6 0 / 53%);
+    margin-top: 1%;
+	margin-bottom: 1%;
+}
+.form select{
+    width: 350px;
+    height: 40px;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 0 0 0 8px;
+    color: #616161;
+}
+ul.section-1{
+	width: 350px;
+	color: #000000;
+	font-size: 10px;
+	font-weight: bold;
+	margin: 0 32px 0 24px;
+	padding: 0 0;
+	height: auto;
+	list-style-type: none;
+	
+}
+ul.section-1 li{
+	margin: 0 0;
+	width: 100%;
+   }
+h2{
+	padding: 0 0 10px 6%;
+	margin: 0;
+	width: 92%;
+}
+ul.icon-cont{
+	margin: auto;
+	padding: 0 0;
+	overflow: hidden;
+}
+ul.icon-cont li{
+	margin: 0 0 0 0;
+	width: 100%;
+   	height: auto;
+	padding: 0 0;
+	color: #505050;
+}
+
+input[type=text], select{
+	width: 350px;
+	height: 40px;
+	font-size: 14px;
+	padding:10px 15px;
+	margin:0px 0px 15px 0;
+	display: inline-block;
+	border: 1px #cccccc solid;
+	box-sizing: border-box;
+	
+}
+input[type=email], select{
+	width: 350px;
+	height: 40px;
+	font-size: 14px;
+	padding:10px 15px;
+	margin:0px 0px 15px 0;
+	display: inline-block;
+	border: 1px #cccccc solid;
+	box-sizing: border-box;
+	
+}
+input[type=number], select{
+	width: 350px;
+	height: 40px;
+	font-size: 14px;
+	padding:10px 15px;
+	margin:0px 0px 15px 0;
+	display: inline-block;
+	border: 1px #cccccc solid;
+	box-sizing: border-box;
+	
+}
+input[type=message], select{
+	width: 350px;
+	height: 90px;
+	font-size: 14px;
+	padding:10px 15px;
+	margin:0px 0px 15px 0;
+	display: inline-block;
+	border: 1px #cccccc solid;
+	box-sizing: border-box;
+	
+
+}
+.section-1 select{
+	width: 350px;
+	height: 40px;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding: 0 0 0 8px;
+	color: #616161;
+}
+.btn{
+	width: 350px;
+	height: 40px;
+	font-size: 14px;
+	padding:10px 15px;
+	background: #f3600a;
+	color: #ffffff;
+	margin:0px 0px 15px 0;
+	display: inline-block;
+	border: 1px #cccccc solid;
+	box-sizing: border-box;
+	
+}
+.button:hover{
+	background-color: #BA4907;
+}
+.about{
+	width: 1001px;
+	height: auto;
+	margin: auto;
+	display: flex;
+}
+.section-2{
+	width: 500px;
+	height: 555px;
+	margin: auto;
+	padding: 0 2px;
+}
+.text-color{
+	color: #0c3e7e;
+}
+h4{
+	width: 100%;
+	font-size: 30px;
+	padding: 0 0;
+	color:#2e2e2e;
+	margin: 90px 0 50px 0;
+}
+.booking-color{
+	color: #194173;
+}
+.first-p{
+	font-size: 22px;
+	color: #2e2e35;
+	margin: 0;
+}
+.second-p{
+	font-size: 17px;
+	color: #2e2e35;
+}
+.section-3{
+	width: 500px;
+	height: 555px;
+	margin: auto;
+}
+.offer img{
+	margin: auto;
+	padding: 0 0 0 70px;
+}
+.car img{
+	margin: auto;
+	padding: 0 0 0 70px;
+}
+.booking{
+	float: right;
+	width: 410px;
+	height: 152px;
+	margin: 260px 0 0 3%;
+	padding: 5px 5px;
+	background-color: #f6f6f6;
+	opacity: 0.66;
+	
+}
+.text-cont{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	
+}
+h6{
+	font-size: 30px;
+	padding: 0 0;
+	margin: 25px 20px 0 20px;
+}
+.booking{
+	font-size: 24px;
+	padding: 0 0;
+	margin: 10px 11px 0 11px;
+}
+hr{
+	width: 400px;
+	margin: 100px 300px 0 300px;
+ 	background: linear-gradient(to right,blue,red,blue);
+  	height: 1px;
+}
+h5{
+	font-size: 30px;
+	padding: 0 0 20px 1%;
+	margin: 0;
+	width: 92%;
+	font-weight: 400;
+}
+ul.icon-cont{
+	margin: auto;
+	padding: 0 0;
+	overflow: hidden;
+}
+.rating{
+	width: 100%;
+	height: auto;
+	margin: 0 0 50px 0;
+}
+ul.icon-cont li{
+	margin: 0 0 0 0;
+	width: 100%;
+   	height: auto;
+	padding: 0 0;
+	color: #505050;
+}
+.icon-cont a{
+	font-size: 15px;
+	text-decoration: none;
+	color: #545454;
+	line-height: 150%;
+}
+h6{
+	font-size: 25px;
+    margin: auto;
+    padding: 20px 11px 2% 11px
+}
+table{
+  	width: 100%;
+}
+
+td{
+	 border: 1px solid #dddddd;
+	 text-align: left;
+	 padding: 8px;
+	 color: #ffffff;
+}
+.section-6car img{
+	margin: auto;
+	padding:0;
+	
+}
+.section-6{
+	width: 100%;
+	margin: auto;
+	height: auto;
+	display: flex;
+}
+
+.table{
+	width: 50%;
+	margin: 0 0;
+	padding:0;
+}
+.font-color{
+	color: #000000;
+	text-shadow: 1px 1px 1px #919191;
+	
+}
+.section-6p{
+	font-size: 16px;
+	margin: -20px 0 0 0;
+	padding: 0 0;
+}
+.button{
+	width:  350px; 
+	height: 40px;
+	background-color: #f3600a;
+	font-size: 15px;
+	color: #ffffff;
+	padding: 0 0;
+	margin: 3% 0 0 0;
+	cursor: pointer;
+	border: none;
+	text-shadow: 1px 1px 1px #f6f6f6;
+}
+.main-section{
+	width: 1001px;
+	margin: 0 0 10% 0;
+	height: auto;
+	
+}
+hr{
+	width: 400px;
+	margin: 100px 300px 0 300px;
+ 	background: linear-gradient(to right,blue,red,blue);
+  	height: 1px;
+}
+h4.section-7{
+	font-size: 30px;
+	font-weight:bolder;
+	color: #000000;
+	margin: 115px 0 25px 0;
+}
+.section-7-p{
+	margin: 0 0;
+	padding: 0 0 1%;
+	font-size: 15px;
+	color: #5F5F5F;
+	line-height: 150%;
+}
+.section-7-para{
+	font-size: 15px;
+	color: #5F5F5F;
+	line-height: 150%;
+	padding: 0 0 1% 0;
+}
+h6.section-7-head{
+	font-size: 19px;
+	padding: 0;
+	color: #0c3e7e;
+}
+.section-7-para1{
+	font-size: 16px;
+	padding: 4px;
+	color: #606060;
+	line-height: 145%;
+}
+.section-7-cont{
+	width: 100%;
+	display: flex;
+	height: auto;
+}
+.section-7-box1{
+	width: 23%;
+	padding: 15px;
+	margin: 0 1% 0 0;
+	height: auto;
+	background-color: #eeeeee;
+}
+.section-7-box2{
+	width: 23%;
+	padding: 15px;
+	margin: 0 1% 0 0;
+	height: auto;
+	background-color: #eeeeee;
+}
+.section-7-box3{
+	width: 23%;
+	padding: 15px;
+	margin: 0 1% 0 0;
+	height: auto;
+	background-color: #eeeeee;
+}
+.section-7-box4{
+	width: 23%;
+	padding: 15px;
+	margin: 0 1% 0 0;
+	height: auto;
+	background-color: #eeeeee;
+}
+hr{
+	width: 400px;
+	margin: 70px 300px 0 300px;
+ 	background: linear-gradient(to right,blue,red,blue);
+  	height: 1px;
+}
+h4.section-8{
+	font-size: 30px;
+	font-weight:bolder;
+	color: #000000;
+	margin: 120px 0 15px 0;
+}
+.section-8-para{
+	font-size: 18px;
+	color: #717171;
+}
+.text-box1{
+	width: 480px;
+	height:auto;
+	margin: 0 0;
+	padding: 0 0;
+
+}
+.section-9 select{
+	width: 350px;
+	height: 40px;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding: 0 0 0 8px;
+	color: #616161;
+}
+
+ul.section-9 {
+	width: 480px;
+	color: #000000;
+	font-size: 10px;
+	font-weight: bold;
+	margin: 0 32px 0 0;
+	padding: 0 0;
+	height: auto;
+	list-style-type: none;
+	
+}
+ul.section-9 li{
+	margin: 0 0;
+	width: 100%;
+   }
+
+.btn1{
+	width: 350px;
+	height: 40px;
+	font-size: 14px;
+	padding:10px 15px;
+	margin:0px 0px 15px 0;
+	display: inline-block;
+	border: 1px #cccccc solid;
+	box-sizing: border-box;
+	text-shadow: 1px 1px 1px #f6f6f6;
+	background: #f3600a;
+	color: #ffffff;
+}
+
+
+.section-10{
+	width: 450px;
+	height: 120px;
+	padding: 15px 20px;
+	margin: 0 0 0 10%;
+	background-color: #eeeeee;
+	
+}
+.section-11{
+	width: 450px;
+	height: 120px;
+	padding: 20px 20px;
+	margin: 2% 0 0 10%;
+	background-color: #eeeeee;
+	
+}
+h5.section-10-text{
+	font-size: 22px;
+	width: 92%;
+	margin: 0 0;
+	padding: 0 0;
+}
+.section-10-text2{
+	font-size: 17px;
+	padding: 20px 0 0 0;
+	margin: 0 0;
+	line-height: 150%;
+}
+.section-9 input[type=text]{
+	width: 450px;
+	height: 40px;
+	font-size: 14px;
+	padding:10px 15px;
+	margin:0px 0px 15px 0;
+	display: inline-block;
+	border: 1px #cccccc solid;
+	box-sizing: border-box;
+	
+}
+.section-9 input[type=email]{
+	width: 450px;
+	height: 40px;
+	font-size: 14px;
+	padding:10px 15px;
+	margin:0px 0px 15px 0;
+	display: inline-block;
+	border: 1px #cccccc solid;
+	box-sizing: border-box;
+	
+}
+.section-9 input[type=number]{
+	width: 450px;
+	height: 40px;
+	font-size: 14px;
+	padding:10px 15px;
+	margin:0px 0px 15px 0;
+	display: inline-block;
+	border: 1px #cccccc solid;
+	box-sizing: border-box;
+
+}
+.section-9 input[type=message]{
+	width: 450px;
+	height: 100px;
+	font-size: 14px;
+	padding:10px 15px;
+	margin:0px 0px 15px 0;
+	display: inline-block;
+	border: 1px #cccccc solid;
+	box-sizing: border-box;
+
+}
+.section-9 row1 li{
+	margin: 0 0;
+	width: 100%;
+   }
+.section-9 row-1 select{
+	width: 475px;
+	height: 40px;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding: 0 0 0 8px;
+	color: #616161;
+}
+ul.section-9 row-1{
+	width: 100%;
+}
+.img-cont{
+	width: 530px;
+	margin: 0 0;
+	padding: 0 0;
+	
+}
+.option-cont{
+	width: 100%;
+	margin: auto;
+	display: flex;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #100F0F;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+ 	 background-color: #990C10;
+	color: #ffffff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #f3600a;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+	background-color: #521516;
+	color: #ffffff;
+}
+h4.tab-section{
+	color: #ffffff;
+}
+h6.direction{
+	font-size: 30px;
+	text-align: center;
+}
+ul.menu{
+	width: 100%;
+    list-style-type: none;
+    font-size: 10px;
+    font-weight: bold;
+    overflow: hidden;
+    margin: 2% 0 0 0;
+    padding: 0 0;
+    float: right;
+    color: #6d6d6d;
+}
+
+ul.menu li{
+	margin: 0 0;
+	display:inline-block;
+	padding: 8px 11px 0 8px;
+}
+.menu li a{
+	display: block;
+	margin: 0 0;
+	padding:8px;
+	color: #6d6d6d;
+	text-decoration: none;
+	font-size: 18px;
+}
+.menu li a:hover{
+	background: #F3383B;
+	color: #ffffff;
+}
+.footer{
+	width: 100%;
+	margin: 0;
+	padding: 0 0%;
+	height: 190px;
+	background: #cccccc;
+}
+.footer-text{
+	text-align: center;
+	width: 100%;
+	
+}
+.copyright{
+	text-align: center;
+	margin: 0;
+	padding: 1% 0 0 0;
+}
+
+.end-text{
+	text-align: center;
+	width: 100%;
+	margin: 0 0;
+	padding: 0;
+	float: left;
+	
+}
+.up-symbol img{
+	float: right;
+	margin: -3% 20% 0 20%;
+	padding: 0 0%;
+}
+/***************************************************************************************
+smaller than 768px
+****************************************************************************************/
+@media screen and (max-width:768px){
+	.container{
+		width: 98%;
+		margin: auto;
+		height: auto;
+	}
+	.header{
+		width:100%;
+		margin: 0 0;
+		height: auto;
+	}
+	.logo img{
+		float: left;
+		margin: 0 0;
+	}
+	
+	.number{
+		float: right;
+		margin:0 0;
+		font-size: 24px;
+		font-weight: 700;
+	}
+	.navigation li a{
+		padding:8px;
+		font-size: 18px;
+	}
+	li a:hover{
+		cursor: pointer;
+		background: #f3600a;
+	}
+
+	ul.navigation{
+		width: 64%;
+		margin: 5% 0 0 0;
+		padding: 0 0;
+		float: none;
+		color: #6d6d6d;
+
+	}
+
+	ul.navigation li{
+		margin: 0 0;
+		padding: 8px 0 0 8px;
+	}
+	.banner{
+		float: left;
+		width: 100%;
+		background: url("../images/desert.png");
+		background-repeat: no-repeat;
+	
+}
+	.cont-box{
+		width: 98%;
+		margin: auto;
+	}
+	.text-cont{
+		width: 90%;
+		height: auto;
+		margin: 2% 5%;
+		padding: 0 0;
+		flex-direction: column;
+	}
+	.code{
+		width: 100%;
+		margin: 0 0;
+		padding: 0;
+		height: auto;
+		float: left;
+	}
+	h2{
+		padding:0 0;
+		margin: 5% 0;
+		width: 100%;
+		font-size:35px; 
+		text-align: center;
+		
+}
+	.text-box{
+		width: 90%;
+		margin: 0 5%;
+		padding: 0 0;
+	}
+	ul.section-1{
+		width: 96%;
+		margin: 0 2%;
+		padding: 0 0;
+	}
+	.section-1 select{
+		width: 96%;
+		margin: 2% 2%;
+		padding: 0 2%;
+		font-size: 20px;
+	}
+	ul.section-1 li{
+		margin: 0 2%;
+		width: 96%;
+   }
+	input[type=text], select{
+		width: 100%;
+		margin:0 0 2% 0;
+		padding: 0 2%;
+		font-size: 20px;
+	}
+	
+	input[type=email], select{
+		width: 100%;
+		margin:0 0 2% 0;
+		padding: 0 2%;
+		font-size: 20px;
+	}
+	input[type=number], select{
+		width: 100%;
+		margin:0 0 2% 0;
+		padding: 0 2%;
+		font-size: 20px;
+	}
+	input[type=message], select{
+		width: 100%;
+		margin:0 0 2% 0;
+		padding: 0 2%;
+		font-size: 20px;
+	}
+	.btn{
+		width: 100%;
+		height: 40px;
+		font-size: 14px;
+		padding:10px 15px;
+	
+	}
+	
+	.booking{
+		float: left;
+		width: 100%;
+		height: auto;
+		margin: 10% 0 0 0;
+		padding: 5px 5px;
+
+	}
+	h6 {
+		font-size: 30px;
+		margin: auto;
+		padding: 3% 3%;
+		width: 94%;
+	}
+	.booking {
+		font-size: 24px;
+		padding: 0 0;
+		margin: 3% 3%;
+		width: 94%;
+	}
+	.about{
+		width: 92%;
+		height: auto;
+		margin: 0 0;
+		flex-direction: column;
+		padding: 0 4%;
+	}
+	.section-2 {
+		width: 100%;
+		margin: 0 0;
+		padding: 0 0px;
+	}
+	h4{
+		width: 100%;
+		margin: 10% 0;
+	}
+	.offer img {
+		margin: auto;
+		padding: 0 0;
+		width: 100%;
+	}
+	.car img {
+		margin: auto;
+		padding: 0 0;
+		width: 100%;
+	}
+.car-rates{
+		width: 100%;
+		margin: 0 0 5% 0;
+	}
+	h5 {
+		font-size: 30px;
+		padding: 20px 3%;
+		margin: 0;
+		width: 96%;
+	}
+	ul.icon-cont {
+		margin: auto;
+		padding: 0 0;
+		overflow: hidden;
+	}
+	.icon-cont a {
+		font-size: 20px;
+		text-decoration: none;
+   }
+	hr{
+		width: 60%;
+		margin: 8% 20% 0;
+		background: linear-gradient(to right,blue,red,blue);
+		height: 1px;
+		position: relative;
+	}
+	.tab {
+		width: 100%;
+		padding: 0 0;
+		margin: 0 0;
+	}
+	.tab button {
+		float: none;
+		padding: 14px 10px;
+		transition: 0.3s;
+		font-size: 14px;
+	}
+	.main-section{
+		width: 100%;
+		padding: 0 0;
+		margin: 0 0;
+		height: auto;
+		flex-direction: column;
+	}
+	h6 {
+		font-size: 30px;
+		margin: auto;
+		padding: 3% 0%;
+		width: 98%;
+	}
+	.section-6{
+		width: 100%;
+		margin: auto;
+		padding: 0;
+		flex-direction: column;
+	   	
+	}
+	.section-6car img{
+		padding: 0 20%;
+		margin: auto;
+		
+	}
+	.table {
+		width: 100%;
+		margin: 0 0;
+		padding: 0;
+	}
+	.section-6p {
+		font-size: 22px;
+		margin: 0 0;
+		padding: 0 3%;
+		width: 94%;
+	}
+	h4.section-7 {
+		margin: 0 0;
+		width: 96%;
+		padding: 8% 2% 4% 2%;
+	}
+	.section-7-cont {
+		width: 100%;
+		height: auto;
+		flex-direction: column;
+	}
+	.section-7-box1 {
+		width: 90%;
+		padding: 15px;
+		margin: 2% 3%;
+		height: auto;
+		background-color: #eeeeee;
+	}
+	h6.section-7-head {
+		font-size: 25px;
+		padding: 0;
+		margin: 0 0;
+		text-align: center;
+	}
+	.section-7-para1 {
+		font-size: 20px;
+		padding: 4px;
+	}
+	.section-7-box2 {
+		width: 90%;
+		padding: 15px;
+		margin: 0 3% 2%;
+		height: auto;
+		background-color: #eeeeee;
+	}
+	.section-7-box3 {
+		width: 90%;
+		padding: 15px;
+		margin: 0 3%;
+		height: auto;
+		background-color: #eeeeee;
+	}
+	.section-7-box4 {
+		width: 90%;
+		padding: 15px;
+		margin: 2% 3%;
+		height: auto;
+		background-color: #eeeeee;
+	}
+	h4.section-8 {
+		font-size: 25px;
+		margin: 80px 0 15px 0;
+	}
+	h4.section-8 {
+		font-size: 25px;
+		width: 100%;
+		margin: 10% 0% 0 0%;
+		padding: 0 0;
+	}
+	.section-8-para {
+		font-size: 20px;
+		color: #717171;
+	}
+	.option-cont {
+		width: 100%;
+		margin: auto;
+		height: auto;
+		flex-direction: column;
+	}
+	.text-box1 {
+		width: 80%;
+		height: auto;
+		margin: 0 10%;
+		padding: 0 0;
+	}
+	ul.section-9 {
+		width: 100%;
+		color: #000000;
+		font-size: 10px;
+		font-weight: bold;
+		margin: 0 32px 0 0;
+		padding: 0 0;
+		height: auto;
+		list-style-type: none;
+	}
+	.section-9 select {
+		width: 70%;
+		height: 40px;
+		padding: 0 0 0 8px;
+		margin: 0 15% 2% 0;
+	}
+	.section-9 input[type=text] {
+		width: 100%;
+		height: auto;
+		padding: 10px 15px;
+		margin: 0px 0px 2% 0;
+	}
+	.section-9 input[type=email] {
+		width: 100%;
+		height: auto;
+		padding: 10px 15px;
+		margin: 0px 0px 2% 0;
+	}
+	.section-9 input[type=number] {
+		width: 100%;
+		height: auto;
+		padding: 10px 15px;
+		margin: 0px 0px 2% 0;
+	}
+	.section-9 input[type=message] {
+		width: 100%;
+		height: auto;
+		padding: 10px 15px;
+		margin:0 0 2% 0;
+	}
+	.button1{
+		width:  50%; 
+		height: 40px;
+		padding: 0 0;
+		margin: 3% 25% 3% 25%;
+		font-size: 20px;
+		text-shadow: 1px 1px 1px #f6f6f6;
+	}
+	.img-cont {
+		width: 100%;
+		margin: 0 0;
+		padding: 0 0;
+		height: auto;
+	}
+	.section-10 {
+		width: 60%;
+		padding: 13px 2%;
+		margin: 2% 19%;
+		background-color: #eeeeee;
+		height: auto;
+	}
+	.section-11 {
+		width: 60%;
+		height: auto;
+		padding: 13px 2%;
+		margin: 0 19%;
+		background-color: #eeeeee;
+	}
+	h6.direction {
+    	font-size: 25px;
+	}
+	.up-symbol img {
+		float: none;
+		margin: 0% 20% 0 20%;
+		padding: 0 0%;
+	}
+}
+/***************************************************************************************
+smaller than 425px
+****************************************************************************************/
+@media screen and (max-width:428px){
+	.container{
+		width: 98%;
+		margin: auto;
+		height: auto;
+	}
+	.header{
+		width: 100%;
+		margin: 0 0;
+		height: auto;
+	}
+	.logo img{
+		float: none;
+		margin: 2% 0;
+	}
+	.number{
+		float: none;
+		margin:0 0;
+		font-size: 24px;
+		font-weight: 700;
+	}
+	.navigation li a{
+		padding:8px;
+		font-size: 18px;
+	}
+	li a:hover{
+		cursor: pointer;
+		background: #f3600a;
+	}
+
+	ul.navigation{
+		width: 64%;
+		margin: 5% 0 0 0;
+		padding: 0 0;
+		float: none;
+		color: #6d6d6d;
+
+	}
+
+	ul.navigation li{
+		margin: 0 0;
+		padding: 8px 0 0 8px;
+	}
+	.banner{
+		width: 100%;
+		height: auto;
+		margin: auto;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		float: left;
+
+	}
+	.cont-box{
+		width: 98%;
+		margin: auto;
+	}
+	.text-cont{
+		width: 90%;
+		height: auto;
+		margin: 2% 5%;
+		padding: 0 0;
+		flex-direction: column;
+	}
+	.code{
+		width: 100%;
+		margin: 0 0;
+		padding: 0;
+		height: auto;
+		float: left;
+	}
+	h2{
+		padding:0 0;
+		margin: 2% 0;
+		width: 100%;
+		font-size:22px; 
+		text-align: center;
+		
+}
+	.text-box{
+		width: 90%;
+		margin: 0 5%;
+		padding: 0 0;
+	}
+	ul.section-1{
+		width: 96%;
+		margin: 0 2%;
+		padding: 0 0;
+	}
+	.section-1 select{
+		width: 96%;
+		margin: 2% 2%;
+		padding: 0 2%;
+		font-size: 20px;
+	}
+	ul.section-1 li{
+		margin: 0 2%;
+		width: 96%;
+   }
+	input[type=text], select{
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+	}
+	
+	input[type=email], select{
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+	}
+	input[type=number], select{
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+	}
+	input[type=message], select{
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+	}
+	
+	.booking{
+		width: 100%;
+		height: auto;
+		margin: auto;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		float: left;
+
+
+	}
+	.btn{
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+	}
+	h6 {
+		font-size: 22px;
+		padding: 0 0;
+		width: 100%;
+		text-align: center;
+		margin: 0 0;
+	}
+	.booking {
+		font-size: 18px;
+		padding: 0 0;
+		margin: 3% 3%;
+		width: 94%;
+	}
+	.first-p{
+		font-size: 16px;
+	
+	}
+	.second-p{
+		font-size: 16px;
+		
+	}
+.about{
+		width: 92%;
+		height: auto;
+		margin: 0 0;
+		flex-direction: column;
+		padding: 0 4%;
+	}
+	.section-2 {
+		width: 100%;
+		margin: 0 0;
+		padding: 0 0px;
+		height: auto;
+	}
+	.section-3 {
+		width: 100%;
+		margin: 0 0;
+		padding: 0 0px;
+		height: auto;
+	}
+	h4{
+		width: 100%;
+		margin: 10% 0;
+		font-size: 22px;
+	}
+	.offer img {
+		margin: 0 0;
+		padding: 0 0;
+		width: 100%;
+	}
+	.car img {
+		margin: 0 0;
+		padding: 0 0;
+		width: 100%;
+	}
+	.car-rates{
+		width: 100%;
+		margin: 0 0 5% 0;
+	
+	}
+	h5 {
+		font-size: 25px;
+		padding: 20px 0;
+		margin: 0;
+		width: 100%;
+   		text-align: center;
+	}
+	ul.icon-cont {
+		margin: auto;
+		padding: 0 2%;
+		overflow: hidden;
+		width: 96%;
+	}
+	.icon-cont a {
+		font-size: 15px;
+		text-decoration: none;
+   }
+	hr{
+		width: 60%;
+		margin: 20% 20% 10% 20%;
+		background: linear-gradient(to right,blue,red,blue);
+		height: 1px;
+		position: relative;
+	}
+	.tab {
+		width: 100%;
+		padding: 0 0;
+		margin: 0 0;
+	}
+	.tab button {
+		float: none;
+		padding: 14px 10px;
+		transition: 0.3s;
+		font-size: 14px;
+	}
+	.main-section{
+		width: 100%;
+		padding: 0 0;
+		margin: 0 0;
+		height: auto;
+		flex-direction: column;
+	}
+	h6 {
+		font-size: 22px;
+		padding: 0 0;
+		width: 100%;
+		text-align: center;
+		margin:7% 0 3% 0;
+		
+	}
+	.section-6{
+		width: 100%;
+		margin: auto;
+		height: auto;
+		padding: 0 0;
+	}
+	.section-6 img{
+		width: 100%;
+		margin: auto;
+		padding: 0;
+	   	
+	}
+	.table {
+		width: 100%;
+		margin: 0 0;
+		padding: 0;
+	}
+	.section-6p {
+		font-size: 16px;
+		margin: 0 0;
+		padding: 0 3%;
+		width: 94%;
+	}
+	h4.section-7 {
+		margin: 10% 0 5% 0;
+		width: 100%;
+		padding: 0;
+		font-size: 25px;
+	}
+	.section-7-p{
+		margin:5% 0;
+		width: 100%;
+		padding: 0;
+		font-size: 15px;
+	}
+	.section-7-para{
+		margin:5% 0;
+		width: 100%;
+		padding: 0;
+		font-size: 15px;
+	}
+	.section-7-cont {
+		width: 100%;
+		height: auto;
+		flex-direction: column;
+	}
+	.section-7-box1 {
+		width: 92%;
+		padding: 15px;
+		margin: 0% 0 2% 0;
+		height: auto;
+		
+	}
+	h6.section-7-head {
+		font-size: 22px;
+		padding: 0;
+		margin: 0 0;
+	}
+	.section-7-para1 {
+		font-size: 16px;
+		padding: 4px;
+	}
+	.section-7-box2 {
+		width: 92%;
+		padding: 15px;
+		margin: 0 0;
+		height: auto;
+	}
+	.section-7-box3 {
+		width: 92%;
+		padding: 15px;
+		margin: 2% 0 2% 0;
+		height: auto;
+	}
+	.section-7-box4 {
+		width: 92%;
+		padding: 15px;
+		margin: 0 0;
+		height: auto;
+	}
+	h4.section-8 {
+		font-size: 25px;
+		margin: 80px 0 15px 0;
+	}
+	h4.section-8 {
+		font-size: 22px;
+		width: 100%;
+		margin: 10% 0% 0 0%;
+		padding: 0 0;
+	}
+	.section-8-para {
+		font-size: 18px;
+		color: #717171;
+	}
+	.option-cont {
+		width: 100%;
+		margin: auto;
+		height: auto;
+		flex-direction: column;
+	}
+	.text-box1 {
+		width: 100%;
+		height: auto;
+		margin: 0 0%;
+		padding: 0 0;
+	}
+	ul.section-9 {
+		width: 100%;
+		color: #000000;
+		font-size: 10px;
+		font-weight: bold;
+		margin: 0 32px 0 0;
+		padding: 0 0;
+		height: auto;
+		list-style-type: none;
+	}
+	.section-9 select {
+		width: 70%;
+		height: 40px;
+		padding: 0 0 0 8px;
+		margin: 0 15% 2% 0;
+	}
+	.section-9 input[type=text] {
+		width: 100%;
+		height: 40px;
+		padding: 10px 15px;
+		margin: 0px 0px 2% 0;
+	}
+	.section-9 input[type=email] {
+		width: 100%;
+		height: 40px;
+		padding: 10px 15px;
+		margin: 0px 0px 2% 0;
+	}
+	.section-9 input[type=number] {
+		width: 100%;
+		height: 40px;
+		padding: 10px 15px;
+		margin: 0px 0px 2% 0;
+	}
+	.section-9 input[type=message] {
+		width: 100%;
+		height: 40px;
+		padding: 10px 15px;
+		margin: 0px 0px 2% 0;
+	}
+	.btn1{
+		width: 100%;
+		height: 40px;
+		font-size: 14px;
+		padding:10px 15px;
+		margin:0px 0px 15px 0;
+	
+}
+	.img-cont {
+		width: 100%;
+		margin: 0 0;
+		padding: 0 0;
+		height: auto;
+	}
+	.section-10 {
+		width: 90%;
+		height: 120px;
+		padding: 5% 5%;
+		margin: 2% 0%;
+    }
+	.section-11 {
+		width: 90%;
+		height: 120px;
+		padding: 5% 5%;
+		margin: 2% 0%;
+	}
+	
+}
+/***************************************************************************************
+smaller than 724px
+****************************************************************************************/
+@media screen and (max-width:380px){
+	.container{
+		width: 98%;
+		margin: auto;
+		height: auto;
+	}
+	.header{
+		width: 100%;
+		margin: 0 0;
+		height: auto;
+	}
+	.logo img{
+		float: none;
+		margin: 2% 0;
+	}
+	.number{
+		float: none;
+		margin:0 0;
+		font-size: 18px;
+		font-weight: 700;
+		width: 100%;
+		padding: 2% 0 10% 0;
+	}
+	.navigation li a{
+		padding:8px;
+		font-size: 18px;
+	}
+	li a:hover{
+		cursor: pointer;
+		background: #f3600a;
+	}
+
+	ul.navigation{
+		width: 64%;
+		margin: 5% 0 0 0;
+		padding: 0 0;
+		float: none;
+		color: #6d6d6d;
+
+	}
+
+	ul.navigation li{
+		margin: 0 0;
+		padding: 8px 0 0 8px;
+	}
+	.banner{
+		float: left;
+		width: 100%;
+		background: url("../images/desert.png");
+		background-repeat: no-repeat;
+
+	}
+	.cont-box{
+		width: 98%;
+		margin: auto;
+	}
+	.text-cont{
+		width: 90%;
+		height: auto;
+		margin: 2% 5%;
+		padding: 0 0;
+		flex-direction: column;
+	}
+	.code{
+		width: 100%;
+		margin: 0 0;
+		padding: 0;
+		height: auto;
+		float: left;
+	}
+	h2{
+		margin: 0 0;
+		width: 94%;
+		font-size: 20px;
+		text-align: center;
+		padding: 6px;
+
+	}
+	.text-box{
+		width: 90%;
+		margin: 0 5%;
+		padding: 0 0;
+	}
+	ul.section-1{
+		width: 96%;
+		margin: 0 2%;
+		padding: 0 0;
+	}
+	.section-1 select{
+		width: 96%;
+		margin: 2% 2%;
+		padding: 0 2%;
+		font-size: 15px;
+	}
+	ul.section-1 li{
+		margin: 0 2%;
+		width: 96%;
+   }
+	input[type=text], select{
+		width: 100%;
+		font-size: 4vw;
+		margin: 0 0 2% 0;
+		padding: 3% 3%;
+		height: auto;
+		font-weight: normal;
+		
+		
+	}
+	
+	input[type=email], select{
+		width: 100%;
+		font-size: 4vw;
+		margin: 0 0 2% 0;
+		padding: 3% 3%;
+		height: auto;
+		font-weight: normal;
+		
+	}
+	input[type=number], select{
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+	}
+	input[type=message], select{
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+	}
+	.btn{
+		width: 100%; 
+		height: 40px;
+		padding: 0 0;
+		margin: 3% 0 10% 0;
+		font-size: 15px;
+	}
+	.booking{
+		width: 100%;
+		height: auto;
+		margin: 10% 0 0 0;
+		padding: 5px 5px;
+
+	}
+	h6 {
+		font-size: 30px;
+		margin: auto;
+		padding: 3% 3%;
+		width: 94%;
+	}
+	.booking {
+		font-size: 16px;
+		padding: 0 0;
+		margin: 3% 3%;
+		width: 94%;
+	}
+	.about{
+		width: 92%;
+		height: auto;
+		margin: 0 0;
+		flex-direction: column;
+		padding: 0 4%;
+	}
+	.section-2 {
+		width: 100%;
+		margin: 0 0;
+		padding: 0 0px;
+		height: auto;
+	}
+	h4{
+		width: 90%;
+		margin: 5% 0;
+		padding: 5% 5%;
+		font-size: 20px;
+		text-align: center;
+	}
+	.first-p {
+		font-size: 14px;
+		width: 94%;
+		padding: 3% 3%;
+	}
+	.second-p {
+		font-size: 13px;
+		width: 94%;
+		padding: 3% 3%;
+	}
+	.offer img {
+		margin: auto;
+		padding: 0 0;
+		width: 100%;
+	}
+	.car img {
+		margin: auto;
+		padding: 0 0;
+		width: 100%;
+	}
+	.car-rates{
+		width: 100%;
+		margin: 0 0 5% 0;
+	}
+	h5 {
+		font-size: 18px;
+		padding: 20px 3%;
+		margin: 0;
+		width: 96%;
+	}
+	ul.icon-cont {
+		margin: auto;
+		padding: 0 0;
+		overflow: hidden;
+	}
+	.icon-cont a {
+	
+		text-decoration: none;
+		font-size: 14px;
+   }
+	hr{
+		width: 60%;
+		margin: 2% 20%;
+		background: linear-gradient(to right,blue,red,blue);
+		height: 1px;
+		position: relative;
+	}
+	.tab {
+		width: 100%;
+		padding: 0 0;
+		margin: 0 0;
+	}
+	.tab button {
+		float: none;
+		padding: 14px 10px;
+		transition: 0.3s;
+		font-size: 14px;
+	}
+	.main-section{
+		width: 100%;
+		padding: 0 0;
+		margin: 0 0;
+		height: auto;
+		flex-direction: column;
+	}
+	h6 {
+		font-size: 18px;
+		margin: auto;
+		padding: 5% 5%;
+		width: 90%;
+		text-align: center;
+	}
+	.section-6 img{
+		width: 100%;
+		margin: auto;
+		padding: 0;
+	   	
+	}
+	.table {
+		width: 100%;
+		margin: 0 0;
+		padding: 0;
+	}
+	.section-6p {
+		font-size: 13px;
+		margin: 0 0;
+		padding: 0 5%;
+		width: 90%;
+	}
+	.button{
+		width:  100%; 
+		height: 40px;
+		background-color: #f3600a;
+		font-size: 15px;
+		
+	}
+	h4.section-7 {
+		margin: 0 0;
+		width: 96%;
+		padding: 8% 2% 4% 2%;
+		font-size: 20px;
+	}
+	.section-7-p {
+		margin: 0% 3%;
+		width: 94%;
+		padding: 0;
+		font-size: 13px;
+	}
+	.section-7-para {
+		margin: 5% 3%;
+		width: 94%;
+		padding: 0;
+		font-size: 12px;
+	}
+	.section-7-cont {
+		width: 100%;
+		height: auto;
+		flex-direction: column;
+	}
+	.section-7-box1 {
+		width: 90%;
+		padding: 15px;
+		margin: 5% 0;
+		height: auto;
+	}
+	h6.section-7-head {
+		font-size: 22px;
+		padding: 0 3%;
+		margin: 0 0;
+		width: 94%;
+	}
+	.section-7-para1 {
+		font-size: 13px;
+		padding: 4px;
+	}
+	.section-7-box2 {
+		width: 90%;
+		padding: 15px;
+		margin: 5% 0;
+		height: auto;
+	}
+	.section-7-box3 {
+		width: 90%;
+		padding: 15px;
+		margin: 5% 0;
+		height: auto;
+	}
+	.section-7-box4 {
+		width: 90%;
+		padding: 15px;
+		margin: 5% 0;
+		height: auto;
+		
+	}
+	h4.section-8 {
+		font-size: 25px;
+		margin: 80px 0 15px 0;
+	}
+	h4.section-8 {
+		font-size: 20px;
+		width: 100%;
+		margin: 10% 0% 0 0%;
+		padding: 0 0;
+	}
+	.section-8-para {
+		font-size: 15px;
+		color: #717171;
+		width: 94%;
+		padding: 0 3%;
+		text-align: center;
+	}
+	.option-cont {
+		width: 100%;
+		margin: auto;
+		height: auto;
+		flex-direction: column;
+	}
+	.text-box1 {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0 0;
+	}
+	ul.section-9 {
+		width: 100%;
+		font-size: 10px;
+		font-weight: bold;
+		margin: 0 32px 0 0;
+		padding: 0 0;
+		height: auto;
+		list-style-type: none;
+	}
+	.section-9 select {
+		width: 70%;
+		height: 40px;
+		padding: 0 0 0 8px;
+		margin: 0 15% 2% 0;
+	}
+	.section-9 input[type=text] {
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+	}
+	.section-9 input[type=email] {
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+	}
+	.section-9 input[type=number] {
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+	}
+	.section-9 input[type=message] {
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+	}
+	.btn{
+		width: 100%;
+		height: 40px;
+		font-size: 14px;
+		padding:10px 15px;
+		margin:0px 0px 15px 0;
+	
+	}
+	.btn1{
+		width: 100%;
+		height: 40px;
+		font-size: 14px;
+		padding:10px 15px;
+		margin:0px 0px 15px 0;
+	
+	}
+	.img-cont {
+		width: 100%;
+		margin: 0 0;
+		padding: 0 0;
+		height: auto;
+	}
+	.section-10 {
+		width: 94%;
+		height: auto;
+		padding: 13px 3%;
+		margin: 2% 0;
+		
+	}
+	h5.section-10-text {
+		font-size: 16px;
+		width: 92%;
+		margin: 0 0;
+		padding: 0 0;
+	}
+	.section-10-text2 {
+		font-size: 13px;
+		padding: 20px 0 0 0;
+		margin: 0 0;
+		line-height: 150%;
+	}
+	.section-11 {
+		width: 94%;
+		height: auto;
+		padding: 13px 3%;
+		margin: 2% 0;
+	}
+	.up-symbol img {
+		float: none;
+		margin: 0 0;
+		padding: 0 0;
+	}
+	h6.direction {
+		font-size: 20px;
+		text-align: center;
+	}
+	.footer {
+		width: 100%;
+		margin: 0;
+		padding: 0 0%;
+		height: auto;
+		background: #cccccc;
+	}
+	.end-text {
+    	width: 100%;
+		margin: 0 0;
+		padding: 0;
+		float: none;
+	}
+}
+/***************************************************************************************
+smaller than 600px
+****************************************************************************************/
+@media screen and (max-width:320px){
+	.container{
+		width: 98%;
+		margin: auto;
+		height: auto;
+	}
+	.header{
+		width: 100%;
+		margin: 0 0;
+		height: auto;
+	}
+	.logo img{
+		float: none;
+		margin: 2% 0;
+	}
+	.number{
+		float: none;
+		margin:0 0;
+		font-size: 18px;
+		font-weight: 700;
+		width: 100%;
+		padding: 2% 0 10% 0;
+	}
+	.navigation li a{
+		padding:8px;
+		font-size: 18px;
+	}
+	li a:hover{
+		cursor: pointer;
+		background: #f3600a;
+	}
+
+	ul.navigation{
+		width: 64%;
+		margin: 5% 0 0 0;
+		padding: 0 0;
+		float: none;
+		color: #6d6d6d;
+
+	}
+
+	ul.navigation li{
+		margin: 0 0;
+		padding: 8px 0 0 8px;
+	}
+	.banner{
+		float: left;
+		width: 100%;
+		
+
+	}
+	.cont-box{
+		width: 98%;
+		margin: auto;
+	}
+	.text-cont{
+		width: 90%;
+		height: auto;
+		margin: 2% 5%;
+		padding: 0 0;
+		flex-direction: column;
+	}
+	.code{
+		width: 100%;
+		margin: 0 0;
+		padding: 0;
+		height: auto;
+		float: left;
+	}
+	h2{
+		margin: 0 0;
+		width: 94%;
+		font-size: 20px;
+		text-align: center;
+		padding: 6px;
+
+	}
+	.text-box{
+		width: 90%;
+		margin: 0 5%;
+		padding: 0 0;
+	}
+	ul.section-1{
+		width: 96%;
+		margin: 0 2%;
+		padding: 0 0;
+	}
+	.section-1 select{
+		width: 96%;
+		margin: 2% 2%;
+		padding: 0 2%;
+		font-size: 15px;
+	}
+	ul.section-1 li{
+		margin: 0 2%;
+		width: 96%;
+   }
+	input[type=text], select{
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+	}
+	
+	input[type=email], select{
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+	}
+	input[type=number], select{
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+	}
+	input[type=message], select{
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+		
+	}
+	.btn{
+		width: 100%; 
+		height: 40px;
+		padding: 0 0;
+		margin: 3% 0 10% 0;
+		font-size: 15px;
+	}
+	.booking{
+		width: 97%;
+		height: auto;
+		margin: 10% 0 0 0;
+		padding: 5px 5px;
+
+	}
+	h6 {
+		font-size: 30px;
+		margin: auto;
+		padding: 3% 3%;
+		width: 94%;
+	}
+	.booking {
+		font-size: 15px;
+		padding: 0 0;
+		margin: 3% 2%;
+		width: 96%;
+	}
+	.about{
+		width: 92%;
+		height: auto;
+		margin: 0 0;
+		flex-direction: column;
+		padding: 0 4%;
+	}
+	.section-2 {
+		width: 100%;
+		margin: 0 0;
+		padding: 0 0px;
+		height: auto;
+	}
+	h4{
+		width: 90%;
+		margin: 5% 0;
+		padding: 5% 5%;
+		font-size: 20px;
+		text-align: center;
+	}
+	.first-p {
+		font-size: 14px;
+		width: 94%;
+		padding: 3% 3%;
+	}
+	.second-p {
+		font-size: 13px;
+		width: 94%;
+		padding: 3% 3%;
+	}
+	.offer img {
+		margin: auto;
+		padding: 0 0;
+		width: 100%;
+	}
+	.car img {
+		margin: auto;
+		padding: 0 0;
+		width: 100%;
+	}
+	.car-rate{
+		width: 100%;
+		margin: 0 0 5% 0;
+	}
+	h5 {
+		font-size: 18px;
+		padding: 20px 3%;
+		margin: 0;
+		width: 96%;
+	}
+	ul.icon-cont {
+		margin: auto;
+		padding: 0 0;
+		overflow: hidden;
+	}
+	.icon-cont a {
+		text-decoration: none;
+		font-size: 13px;
+   }
+	hr{
+		width: 60%;
+		margin: 15% 20% 10% 20%;
+		background: linear-gradient(to right,blue,red,blue);
+		height: 1px;
+		position: relative;
+	}
+	.tab {
+		width: 100%;
+		padding: 0 0;
+		margin: 0 0;
+	}
+	.tab button {
+		float: none;
+		padding: 14px 10px;
+		transition: 0.3s;
+		font-size: 14px;
+	}
+	.main-section{
+		width: 100%;
+		padding: 0 0;
+		margin: 0 0;
+		height: auto;
+		flex-direction: column;
+	}
+	h6 {
+		font-size: 20px;
+		margin: auto;
+		padding: 5% 5%;
+		width: 90%;
+		text-align: center;
+	}
+	.section-6 img{
+		width: 100%;
+		margin: auto;
+		padding: 0;
+	   	
+	}
+	.table {
+		width: 100%;
+		margin: 0 0;
+		padding: 0;
+	}
+	.section-6p {
+		font-size: 13px;
+		margin: 0 0;
+		padding: 0 5%;
+		width: 90%;
+	}
+	.button{
+		width:  100%; 
+		height: 40px;
+		background-color: #f3600a;
+		font-size: 15px;
+		
+	}
+	h4.section-7 {
+		margin: 0 0;
+		width: 96%;
+		padding: 8% 2% 4% 2%;
+		font-size: 20px;
+	}
+	.section-7-p {
+		margin: 0% 3%;
+		width: 94%;
+		padding: 0;
+		font-size: 13px;
+	}
+	.section-7-para {
+		margin: 5% 3%;
+		width: 94%;
+		padding: 0;
+		font-size: 12px;
+	}
+	.section-7-cont {
+		width: 100%;
+		height: auto;
+		flex-direction: column;
+	}
+	.section-7-box1 {
+		width: 90%;
+		padding: 15px;
+		margin: 0% 0;
+		height: auto;
+	}
+	h6.section-7-head {
+		font-size: 19px;
+		padding: 0;
+		margin: 0 0;
+	}
+	.section-7-para1 {
+		font-size: 14px;
+		padding: 4px;
+	}
+	.section-7-box2 {
+		width: 90%;
+		padding: 15px;
+		margin: 5% 0;
+		height: auto;
+	}
+	.section-7-box3 {
+		width: 90%;
+		padding: 15px;
+		margin: 0;
+		height: auto;
+	}
+	.section-7-box4 {
+		width: 90%;
+		padding: 15px;
+		margin: 5% 0;
+		height: auto;
+		
+	}
+	h4.section-8 {
+		font-size: 25px;
+		margin: 80px 0 15px 0;
+	}
+	h4.section-8 {
+		font-size: 20px;
+		width: 100%;
+		margin: 10% 0% 0 0%;
+		padding: 0 0;
+	}
+	.section-8-para {
+		font-size: 15px;
+		color: #717171;
+		width: 94%;
+		padding: 0 3%;
+		text-align: center;
+	}
+	.option-cont {
+		width: 100%;
+		margin: auto;
+		height: auto;
+		flex-direction: column;
+	}
+	.text-box1 {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0 0;
+	}
+	ul.section-9 {
+		width: 100%;
+		color: #000000;
+		font-size: 10px;
+		font-weight: bold;
+		margin: 0 32px 0 0;
+		padding: 0 0;
+		height: auto;
+		list-style-type: none;
+	}
+	.section-9 select {
+		width: 70%;
+		height: 40px;
+		padding: 0 0 0 8px;
+		margin: 0 15% 2% 0;
+	}
+	.section-9 input[type=text] {
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+		
+	}
+	.section-9 input[type=email] {
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+		
+	}
+	.section-9 input[type=number] {
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+		
+		
+	}
+	.section-9 input[type=message] {
+		width: 100%;
+		font-size: 15px;
+		margin: 0 0 2% 0;
+		padding:10px 15px;
+		height: auto;
+		font-weight: normal;
+		
+	}
+	
+	.btn1{
+		width: 100%;
+		height: 40px;
+		font-size: 14px;
+		padding:10px 15px;
+		margin:0px 0px 15px 0;
+	
+	}
+	.img-cont {
+		width: 100%;
+		margin: 0 0;
+		padding: 0 0;
+		height: auto;
+	}
+	.section-10 {
+		width: 94%;
+		height: auto;
+		padding: 13px 3%;
+		margin: 2% 0;
+		
+	}
+	h5.section-10-text {
+		font-size: 22px;
+		width: 92%;
+		margin: 0 0;
+		padding: 0 0;
+	}
+	.section-10-text2 {
+		font-size: 13px;
+		padding: 20px 0 0 0;
+		margin: 0 0;
+		line-height: 150%;
+	}
+	.section-11 {
+		width: 94%;
+		height: auto;
+		padding: 13px 3%;
+		margin: 2% 0;
+	}
+	.up-symbol img {
+		float: none;
+		margin: 0 0;
+		padding: 0 0;
+	}
+	h6.direction {
+		font-size: 20px;
+		text-align: center;
+	}
+	.footer {
+		width: 100%;
+		margin: 0;
+		padding: 0 0%;
+		height: auto;
+		background: #cccccc;
+	}
+	.end-text {
+    	width: 100%;
+		margin: 0 0;
+		padding: 0;
+		float: none;
+	}
+}

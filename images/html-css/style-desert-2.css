@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+.header{
+	width: 1002px;
+	height: auto;
+	margin: auto
+}
+.container{
+	width: 1002px;
+	margin: auto;
+	height: auto;
+}
+.heading{
+	width: 1002px;
+	margin: auto;
+	height: auto;
+}
+.logo img{
+	float: left;
+	margin: 2% 0;
+}
+.contact{
+	color: #0c3e7e;
+}
+
+.number{
+	float: left;
+    margin: 0 20px 0 40%;
+    font-size: 24px;
+    font-weight: 700;
+}

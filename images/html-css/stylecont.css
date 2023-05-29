@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.container{
+	width: 1001px;
+	margin: auto;
+	border: 1px solid #000000;
+}
+/***************************************************************************************
+smaller than 2560px
+****************************************************************************************/
+@media screen and (max-width:2560px){
+	
+	.text{
+		font-size: 17px;
+	}
+	h1{
+		padding: 30px 0 0 0;
+	}
+	h2{
+		margin: 2% 20% 3% 20%;
+		font-size: 46px;
+	}
+	.paragraph{
+		font-size: 19px;
+		
+	}
+	.button{
+		font-size: 20px;
+	}
+	input[type=text], select{
+		width: 100%;
+		font-size: 18px;
+		height: auto;
+		padding: 10px 15px;
+	}
+	input[type=email], select{
+		width: 100%;
+		font-size: 18px;
+		height: auto;
+		padding: 10px 15px;
+	}
+	input[type=number], select{
+		width: 100%;
+		font-size: 18px;
+		height: auto;
+		padding: 10px 15px;
+	}
+	input[type=message], select {
+		width: 100%;
+		height: auto;
+		padding: 30px 15px;
+		font-size: 22px;
+		
+	}
+	.text-content{
+		font-size: 19px;
+	}
+	.bottom-text{
+		font-size: 19px;
+	}
+	h3{
+		font-size: 43px;
+	}
+	.text-bottom{
+		font-size: 24px;
+	}
+	.term-box1{
+		width: 30%;
+		height: auto;
+		margin: 0 2% 0 0;
+	}
+	.main-pic img{
+		width: 100%;
+		height: auto;
+		margin: auto;
+	}
+	.main-text{
+		font-size: 18px;
+	}
+	.term-box2{
+		width: 30%;
+		height: auto;
+		margin: 0 2% 0 2%;
+	}
+	.main-pic2 img{
+		width: 100%;
+		height: auto;
+		margin: auto;
+	}
+		.term-box3{
+		width: 30%;
+		height: auto;
+		margin: 0 2% 0 2%;
+	}
+	.main-pic3 img{
+		width: 100%;
+		height: auto;
+		margin: auto;
+	}
+	h6{
+		font-size: 19px;
+	}
+	.code-text1{
+		font-size: 20px;
+		padding: 0 0 0 17px;
+	}
+	h5.head-text{
+		font-size: 20px;
+	}
+	.code-text11{
+		font-size:20px; 
+	}
+	.code-text12 {
+		font-size: 20px;
+	}
+	.links{
+		font-size: 20px;
+	}
+	.end-box{
+		height: auto;
+	}
+	.about ul li a{
+		height: auto;
+		font-size: 18px;
+	}
+	ul{
+		height: auto;
+	}
+	
+	.about2 ul li {
+		width: 100%;
+		padding: 0 0 0 40px;
+		margin: 0 0;
+	}
+		.about2 ul li a{
+		height: auto;
+		font-size: 18px;
+	}
+	.icon{
+		width: 20%;
+		margin: 3% 1% 0 69%;
+	}
+	.icon-box{
+		margin: 2% 0 0 2%;
+	}
+	.bottom-end_text {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 1% 8% 0 0%;
+	}
+
+
+	}
+

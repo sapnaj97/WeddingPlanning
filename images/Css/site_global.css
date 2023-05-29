@@ -1,0 +1,8 @@
+fieldset,img
+{
+	border: 0;
+	-webkit-transform-origin: right top;
+	-ms-transform-origin: right top;
+	-o-transform-origin: right top;
+	transform-origin: right top;
+}
